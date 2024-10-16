@@ -28,20 +28,20 @@ body:
       description: What boilerplate version does this appear on?
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: typed
     attributes:
       label: Do you use TypeScript?
       options:
-        - label: "Yes"
-        - label: "No"
-  - type: checkboxes
+        - "Yes"
+        - "No"
+  - type: dropdown
     id: device
     attributes:
       label: On which OS this issue appear on?
       options:
-        - label: IOS
-        - label: Android
+        - "IOS"
+        - "Android"
   - type: input
     id: os
     attributes:
